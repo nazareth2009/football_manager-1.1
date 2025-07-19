@@ -1,71 +1,117 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fff;
-   margin: 0;
+  background-color: #f3f3f3;
+  margin: 0;
   padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
 }
 
 header {
   background-color: #fff;
-  padding: 20px 40px;
+  padding: 20px 0;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo p {
-  font-size: 14px;
-  color: #5a5a5a;
-  font-size: 20px;
-  margin: 0;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
 }
 
-.logo strong {
+.logo img {
+  height: 50px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 20px;
+  color: #5a5a5a;
+}
+
+.logo-text strong {
   font-size: 24px;
   text-transform: uppercase;
   color: #39930d;
   font-weight: bold;
-
 }
 
 .tel {
   display: flex;
   align-items: center;
   font-size: 14px;
+  gap: 20px;
 }
 
 .tel img {
-  vertical-align: middle;
   margin-right: 6px;
 }
 
 main {
-  background-color: #fff;
-  padding: 0 40px;
+  padding: 20px 40px;
 }
 
 .big.picture {
-  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.big.picture img {
+  width: 100%;
+  display: block;
 }
 
 .small.picture {
   display: flex;
-  margin: 20px 0;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.small.picture img {
+  width: 24%;
+  margin-right: 10px;
+  height: auto;
 }
 
 .content-wrapper {
   display: flex;
+  justify-content: space-between;
+  gap: 40px;
   padding-bottom: 30px;
 }
 
+.partners {
+  width: 35%;
+}
+
 .about-football {
-  flex: 2;
+  width: 60%;
 }
 
 .about-football h1 {
   font-size: 24px;
   color: #39930d;
-  font-weight: bold; 
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -75,19 +121,14 @@ main {
   margin-bottom: 10px;
 }
 
-.partners {
-  flex: 1;
-}
-
 .partners h2 {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
   background-color: #4CAF50;
-  font-size: 16px;
   padding: 10px;
-  margin: 0 0 10px 0;
+  margin: 0 10px;
 }
 
 .partners ul {
@@ -97,7 +138,7 @@ main {
 }
 
 .partners li {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .partners a {
@@ -106,12 +147,6 @@ main {
   text-decoration: underline;
   text-transform: uppercase;
   color: #343434;
-  font-size: 14px;
-}
-
-.footballmanager p {
-  font-size: 14px;
-  color: #fff;
 }
 
 footer {
@@ -119,9 +154,20 @@ footer {
   padding: 20px 40px;
   color: #fff;
   font-size: 14px;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footballmanager p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
 }
 
 footer .apps {
@@ -131,3 +177,8 @@ footer .apps {
   padding: 0;
   list-style: none;
 }
+
+
+
+
+
