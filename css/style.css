@@ -117,6 +117,10 @@ main {
   min-width: 300px;
 }
 
+.about-football {
+  margin-bottom: 47px;
+}
+
 .about-football h1 {
   font-size: 24px;
   color:  #39930d;
@@ -174,6 +178,7 @@ footer {
 }
 
 .footballmanager p {
+  max-width: 960px;
   margin: 0;
   font-size: 14px;
   color: #fff;
