@@ -13,13 +13,13 @@ body {
 
 header {
   background-color: #fff;
-  padding: 20px 0;
+  padding:  15px 0;
 }
 
 .header-inner {
   max-width: 1200px;
   margin: auto;
-  padding: 0 40px;
+  padding: 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +30,6 @@ header {
   align-items: center;
   gap: 12px;
   background-color: #fff;
-  padding: 10px 16px;
   border-radius: 8px;
 }
 
@@ -72,11 +71,6 @@ header {
   gap: 6px;
 }
 
-.schedule img,
-.phone img {
-  width: 16px;
-  height: 16px;
-}
 
 .phone a {
   font-size: 14px;
@@ -87,7 +81,7 @@ header {
 
 
 main {
-  padding: 20px 40px;
+  padding: 0 15px;
 }
 
 .big.picture {
@@ -115,15 +109,10 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  padding-bottom: 30px;
 }
 
 .partners {
-  width: 35%;
-}
-
-.about-football {
-  width: 60%;
+  min-width: 300px;
 }
 
 .about-football h1 {
@@ -131,12 +120,12 @@ main {
   color:  #39930d;
   font-weight: bold;
   margin-bottom: 10px;
+  margin: 0;
 }
 
 .about-football p {
   font-size: 14px;
-  color: #343434;
-  margin-bottom: 10px;
+color: #343434;
 }
 
 .partners h2 {
@@ -145,7 +134,8 @@ main {
   color: #ffffff;
   font-weight: bold;;
   background-color: #4CAF50;
-  padding: 13px 19px ; 
+  padding: 13px 19px ;
+  margin: 0; 
 }
 
 .partners ul {
