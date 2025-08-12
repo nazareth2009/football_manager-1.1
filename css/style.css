@@ -1,4 +1,5 @@
 body {
+  cursor: url(../img/cursor.cur), auto;
   font-family: Arial, sans-serif;
   background-color: #f3f3f3;
   margin: 0;
@@ -31,6 +32,7 @@ header {
   gap: 12px;
   background-color: #fff;
   border-radius: 8px;
+  transition: transform 0.3s ease;
 }
 
 .logo img {
@@ -71,14 +73,12 @@ header {
   gap: 6px;
 }
 
-
 .phone a {
   font-size: 14px;
   font-weight: bold;
   color: #5a5a5a;
   text-decoration: none;
 }
-
 
 main {
   padding: 0 15px;
@@ -92,6 +92,7 @@ main {
 .big.picture img {
   width: 100%;
   display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .small.picture {
@@ -104,6 +105,7 @@ main {
 .small.picture img {
   width: 24%;
   height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .content-wrapper {
@@ -127,22 +129,25 @@ main {
   font-weight: bold;
   margin-bottom: 10px;
   margin: 0;
+  transition: color 0.2s ease;
 }
 
 .about-football p {
   font-size: 14px;
-color: #343434;
-line-height: 21px;
+  color: #343434;
+  line-height: 21px;
+  transition: background-color 0.3s ease;
 }
 
 .partners h2 {
   font-size: 18px;
   text-transform: uppercase;
   color: #fff;
-  font-weight: bold;;
+  font-weight: bold;
   background-color: #4CAF50;
   padding: 13px 19px ;
   margin: 0; 
+  transition: background-color 0.3s ease;
 }
 
 .partners ul {
@@ -161,6 +166,7 @@ line-height: 21px;
   text-decoration: underline;
   text-transform: uppercase;
   color: #343434;
+  transition: color 0.3s ease, font-weight 0.3s ease;
 }
 
 footer {
@@ -168,17 +174,17 @@ footer {
   padding: 14px 135px;
   color: #fff;
   font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
 .footer-inner {
-  width: 100%; 
+  max-width: 960px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .footballmanager p {
-  max-width: 960px;
   margin: 0;
   font-size: 14px;
   color: #fff;
@@ -193,13 +199,45 @@ footer .apps {
 }
 
 
+.logo:hover {
+  transform: scale(1.05);
+}
 
+.partners h2:hover {
+  background-color: #388E3C;
+}
 
+.partners a:hover {
+  color: #39930d;
+  text-decoration: none;
+  font-weight: bold;
+}
 
+.big.picture img:hover,
+.small.picture img:hover,
+.logo img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
 
+.phone a:hover {
+  color: #39930d;
+  text-decoration: underline;
+}
 
+.about-football h1:hover {
+  color: #2a6b0a;
+}
 
+.about-football p:hover {
+  background-color: #f9f9f9;
+}
 
+footer:hover {
+  background-color: #3e9e42;
+}
 
-
-
+footer .apps li:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
