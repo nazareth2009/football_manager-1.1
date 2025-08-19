@@ -183,6 +183,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  padding: 0 15px;
 }
 
 .footballmanager p {
@@ -218,7 +220,7 @@ footer .apps {
 .small.picture img:hover,
 .logo img:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(06px 20px rgba(0, 0, 0,.3)) ;
 }
 
 .phone a:hover {
