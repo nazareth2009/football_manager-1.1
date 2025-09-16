@@ -261,8 +261,7 @@ footer .apps li:hover {
   .header-inner {
     flex-direction: column;      
     justify-content: center;      
-    align-items: center;         
-    gap: 5px;                    
+    align-items: center;                            
   }
 
 
@@ -270,6 +269,7 @@ footer .apps li:hover {
   .tel {
     flex-direction: column;       
     align-items: center;
+    gap: 5px;
   }
 
 }
